@@ -4,8 +4,8 @@ This repo is used to create/publish the Shoutcast DNAS Streaming MEdia Server to
 
 The docker container exposes the following:
 - Ports
-..- 10128	incoming and outgoing connection
-..- 10129	legacy streaming connections
+-- 10128	incoming and outgoing connection
+-- 10129	legacy streaming connections
 - Webpages
 ..- index.html	main shoutcast page w/ listener and streaming stats
 ..- admin.cgi	administration page for shoutcast server
