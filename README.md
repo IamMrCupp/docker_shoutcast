@@ -8,12 +8,12 @@ This repo is used to create/publish the Shoutcast DNAS Streaming Media Server to
 The docker container exposes the following:
 
 1. Ports
-  * 10128	incoming and outgoing connection
-  * 10129	legacy streaming connections
+  * 10128 - incoming and outgoing connection
+  * 10129 - legacy streaming connections
 
 2. Webpages
-  * index.html	main shoutcast page w/ listener and streaming stats
-  * admin.cgi	administration page for shoutcast server
+  * index.html	- main shoutcast page w/ listener and streaming stats
+  * admin.cgi	- administration page for shoutcast server
 
 
 ## Base Docker Image
@@ -24,7 +24,7 @@ The docker container exposes the following:
 
 1.  Install Docker
 
-2.  Download [automated build](http://registry.hub.docker.com/u/iammrcupp/shoutcast_128k) from the public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull iammrcupp/docker_shoutcast`
+2.  Download [automated build](http://registry.hub.docker.com/u/iammrcupp/docker_shoutcast) from the public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull iammrcupp/docker_shoutcast`
 
 
 ##  Usage:
