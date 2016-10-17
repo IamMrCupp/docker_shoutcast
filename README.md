@@ -10,7 +10,7 @@ This repo is used to create/publish our 128k Shoutcast Master to the Docker Hub 
 
 1.  Install Docker
 
-2.  Download [automated build](http://registry.hub.docker.com/u/iammrcupp/shoutcast_128k)from Public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull iammrcupp/shoutcast_128k`
+2.  Download [automated build](http://registry.hub.docker.com/u/iammrcupp/shoutcast_128k) from the public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull iammrcupp/shoutcast_128k`
 
 
 ##  Usage:
