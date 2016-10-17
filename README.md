@@ -17,7 +17,7 @@ The docker container exposes the following:
 
 
 ## Base Docker Image
-- [ubuntu](https://registry.hub.docker.com/_/ubuntu/)
+- [ubuntu 14.04](https://registry.hub.docker.com/_/ubuntu/)
 
 
 ## Installation:
