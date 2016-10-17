@@ -19,6 +19,10 @@ ripfile=/etc/shoutcast/sc_serv.rip
 publicserver=never
 
 
+; max number of listeners
+maxusers=5
+
+
 ; if you're wanting to use a different port to use for any
 ; connections then you can use this option e.g. to use 80
 ; otherwise port 8000 is used as the default to listen on.
@@ -33,3 +37,4 @@ password=testing
 
 ; password used for accessing the administation pages
 ; NOTE: remember to change this to something else
+adminpassword=testingtoo
