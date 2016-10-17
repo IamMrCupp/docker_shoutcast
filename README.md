@@ -1,5 +1,8 @@
 # iammrcupp/docker_shoutcast Dockerfile
 
+[![iammrcupp/docker_shoutcast](http://dockeri.co/image/iammrcupp/docker_shoutcast)](https://registry.hub.docker.com/u/iammrcupp/docker_shoutcast/)
+
+
 This repo is used to create/publish the Shoutcast DNAS Streaming Media Server to the [Docker Hub Registry](https://registry.hub.docker.com/)
 
 The docker container exposes the following:
