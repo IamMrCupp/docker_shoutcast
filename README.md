@@ -1,14 +1,16 @@
 # iammrcupp/docker_shoutcast Dockerfile
 
-This repo is used to create/publish the Shoutcast DNAS Streaming MEdia Server to the [Docker Hub Registry](https://registry.hub.docker.com/)
+This repo is used to create/publish the Shoutcast DNAS Streaming Media Server to the [Docker Hub Registry](https://registry.hub.docker.com/)
 
 The docker container exposes the following:
+
 1. Ports
-  - 10128	incoming and outgoing connection
-  - 10129	legacy streaming connections
+  * 10128	incoming and outgoing connection
+  * 10129	legacy streaming connections
+
 2. Webpages
-  - index.html	main shoutcast page w/ listener and streaming stats
-  - admin.cgi	administration page for shoutcast server
+  * index.html	main shoutcast page w/ listener and streaming stats
+  * admin.cgi	administration page for shoutcast server
 
 
 ## Base Docker Image
