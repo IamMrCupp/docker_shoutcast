@@ -17,6 +17,6 @@ This repo is used to create/publish our 128k Shoutcast Master to the [Docker Hub
 
 To use the image, type the following:
 ```
-docker run -d -p 10128:10128 -p 10129:10129 iammrcupp/shoutcast
+docker run -d -p 10128:10128 -p 10129:10129 iammrcupp/docker_shoutcast
 ```
 
