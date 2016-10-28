@@ -1,9 +1,9 @@
 FROM ubuntu:14.04
 MAINTAINER Aaron Cupp <IamMrCupp - mrcupp@mrcupp.com>
 LABEL vendor="Tech-Noid Systems" \
-      net.tech-noid.version="0.0.1-beta" \
+      net.tech-noid.version="0.0.2-beta" \
       net.tech-noid.server="Shoutcast Master" \
-      net.tech-noid.release-date="2016-10-16" \
+      net.tech-noid.release-date="2016-10-28" \
       net.tech-noid.version.is-production="false"
       
 
@@ -17,9 +17,9 @@ RUN apt-get update && \
     wget http://download.nullsoft.com/shoutcast/tools/sc_serv2_linux_x64-latest.tar.gz && \
     tar -xzvf sc_serv2_linux_x64-latest.tar.gz
 
-COPY shoutcast.conf /etc/shoutcast/
-
 VOLUME ["/etc/shoutcast"]
+
+COPY shoutcast.conf /etc/shoutcast/
 
 EXPOSE 10128 10129
 
