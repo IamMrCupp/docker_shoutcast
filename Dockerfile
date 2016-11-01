@@ -1,9 +1,9 @@
 FROM ubuntu:14.04
 MAINTAINER Aaron Cupp <IamMrCupp - mrcupp@mrcupp.com>
 LABEL vendor="Tech-Noid Systems" \
-      net.tech-noid.version="0.0.2" \
+      net.tech-noid.version="0.1.2" \
       net.tech-noid.server="Shoutcast Master" \
-      net.tech-noid.release-date="2016-10-28" \
+      net.tech-noid.release-date="2016-10-31" \
       net.tech-noid.version.is-production="false"
       
 
