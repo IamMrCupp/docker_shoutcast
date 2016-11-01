@@ -1,6 +1,6 @@
 
-[![IamMrCupp/docker_shoutcast](https://img.shields.io/github/release/IamMrCupp/docker_shoutcast.svg)](https://github.com/IamMrCupp/docker_shoutcast)[![Github version]
-[![Build Status](https://travis-ci.org/IamMrCupp/docker_shoutcast.svg?branch=master)](https://travis-ci.org/IamMrCupp/docker_shoutcast)[![GitHub release]  
+[![IamMrCupp/docker_shoutcast](https://img.shields.io/github/release/IamMrCupp/docker_shoutcast.svg)](https://github.com/IamMrCupp/docker_shoutcast)
+[![Build Status](https://travis-ci.org/IamMrCupp/docker_shoutcast.svg?branch=master)](https://travis-ci.org/IamMrCupp/docker_shoutcast) 
 
 # iammrcupp/docker_shoutcast Dockerfile
 
