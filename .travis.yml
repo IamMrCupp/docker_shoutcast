@@ -1,13 +1,15 @@
 language: python
 python:
-  - 2.7
-
+- 2.7
 services:
-  - docker
-
+- docker
 install:
-  - docker build -t shoutcast .
-  - docker run -d -p 127.0.0.1:10128:10128 -p 127.0.0.1:10129:10129 --name shoutcast shoutcast
-
+- docker build -t shoutcast .
+- docker run -d -p 127.0.0.1:10128:10128 -p 127.0.0.1:10129:10129 --name shoutcast
+  shoutcast
 script:
-  - docker ps | grep -q shoutcast
+- docker ps | grep -q shoutcast
+notifications:
+  slack:
+    rooms:
+      secure: lZMb4AB3UNA5QPfB4zCgWov+hsCVDUBNlx420Fgm/p2/5cgulHLcNX5IJlEvhpDtgpATWDdus32UjMawFgHX4vtyKT2upjAfnDEQEIW8dC7gu/KttAixvCZ5ihQbKHBBpVAdnb+3OXqSIQP6qhNp3wllnq+KH07qbuRM/3gTkZXex6JRfgvu5ux4DIBxBEdzmUOU1V0kk+aX3nVoe4+Pd34NScy9V+akkLKdN47vwTMlMgpV8JJVgkziWDfRndJND5KwO0unioGmbU9LSrjaUbUeuzOplElUtqUELqDlBaLA5gAZwqIOFRCaPJkV85VwKKu2WFhl5I3VmsHNALJmqZCwcvr+pjfzIHzFAM/0BxGh/2mR4gVXBa0UTHvopIcB6mmwNG1h3SgKIynbkps2vc0NkAzgzt3ry48vjmjcFdlNvAKrVr3JstDY/cbFtBDp73g2MvGtVhxGRiIgWBLjDeQmqRRcTao4hOG4CKWy0g7Lo5LL8/6vgqh9OVfsJpFSh3mCQqtof0lHzkXylOF7uGt7tMUOCsdgllNH0JWxIma/Z4yjMMMMci10/+NIUeOvrkJzYXdiWGPBUulir2VnLOgnZOZ2cWHOsENw6O3qGcY8rj/ZE0BEcuYQkO9coQ8GbN6hEOlKa+js1kOD4JOwPz6U6u8CCvZPM+ayx5anOw4=
