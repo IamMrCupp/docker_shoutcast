@@ -7,9 +7,8 @@
 
 If you have used these scripts and tools and feel like supporting my work, please send me some funds!
 ```
-* Bitcoin (BTC):  1Lei3ikgSrm4JrMYn2Fh3VWhkaBQ4oYM4N
+* Bitcoin (BTC):  1NsP5TD1oRBXNC37inqFUZ9DrJN5Q1qR4y
 * Monero  (XMR):  499QFXhZWBfXAuqqPJUY7ihWDWxzSDTTf7MnVQwYd6xZcSzbTFQY7B4i7zB5mTmXnQfdf6RsDmjdZJNBF6oeeW8xBz7sWa5
-* Zcash   (ZEC):  t1X59HfH2i5YdvUMbxfXbMNMs2Cc8T7ohqH
 ```
 
 This repo is used to create/publish the Shoutcast DNAS Streaming Media Server to the [Docker Hub Registry](https://registry.hub.docker.com/)
